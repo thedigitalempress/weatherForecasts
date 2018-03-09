@@ -3,7 +3,7 @@ import urllib.request,json
 city = input("Enter City: ")
  
 def getForecast(city):
-    url = "https://api.openweathermap.org/data/2.5/weather?appid=2cfcab02ad439f3aa0dcfc20fd116ce7&q="
+    url = "https://api.openweathermap.org/data/2.5/weather?appid=enter api key from owa here="
     url = url + city
     req = urllib.request.Request(url)
     response=urllib.request.urlopen(req)
